@@ -1,7 +1,10 @@
 name: Selenium Test WorkFlow 
+
 on: push
+
 jobs:
   Selenium_Test_job1:
+    name: Selenium Test Job
     runs-on: ubuntu-latest
     steps:
       - run: echo "This is running inside a ${{runner.os}} server in GitHub."
